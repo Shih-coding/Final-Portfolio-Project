@@ -5,10 +5,12 @@
     --dark-green:#05af9e;
 }
 
+body {
+  background: rgb(10, 25, 47)
+}
 .hero {
-  background: rgb(10, 25, 47);
   text-align: left;
-  padding: 50px;
+  padding: 150px;
 }
 
 .hero p {
@@ -36,6 +38,7 @@
 }
 
 .contact-button {
+  font-family: 'Roboto Mono', monospace;
   background-color:transparent !important;
 box-sizing: inherit;
   border: 2px solid var(--accent-color);
@@ -48,3 +51,60 @@ box-sizing: inherit;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
+
+h3{
+color: var(--dark-green);
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+}
+
+p {
+  color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+.she-letters-link:hover {
+  color: var(--secondary-color);
+}
+
+.she-letters-link {
+  font-family:'Roboto Mono', monospace;
+  font-size: 14px;
+  text-align: center;
+    display:block;
+    margin-top: 50px;
+    width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
+     border: 2px solid var(--accent-color);
+     color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.weather-app-link:hover {
+  color: var(--secondary-color);
+}
+
+.weather-app-link {
+   font-family:'Roboto Mono', monospace;
+    font-size: 14px;
+  display:block;
+  text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
+    border: 2px solid var(--accent-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+
