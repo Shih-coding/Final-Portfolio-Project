@@ -3,7 +3,12 @@
     --secondary-color: rgb(100, 255, 208);
     --accent-color: #7C4DFF;
     --dark-green:#05af9e;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.hero {
+  background: rgb(10, 25, 47);
+  text-align: left;
+  padding: 50px;
 }
 
 .hero p {
@@ -25,25 +30,21 @@
   color: var(--dark-green);
 
 }
-.hero {
-  background: rgb(10, 25, 47);
-  text-align: left;
-  padding: 50px;
-}
+
 .contact-button:hover {
   cursor: pointer;
 }
 
 .contact-button {
-  margin: 20px;
   background-color:transparent !important;
 box-sizing: inherit;
   border: 2px solid var(--accent-color);
   display: inline-block;
+  text-align: left;
   padding: 10px 20px;
   transition: all 0.5s;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.25s;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
