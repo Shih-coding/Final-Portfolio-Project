@@ -35,6 +35,8 @@ padding:0;
   }
 }
 
+
+
 .hero h1 {
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -173,3 +175,13 @@ padding:0;
   margin: 40px;  
 }
 
+.about-content {
+  padding: 150px;
+}
+
+.about-content h1 {
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary-color);
+}
