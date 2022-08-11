@@ -133,7 +133,6 @@ padding:0;
 
 .she-letters-link {
   font-family:'Roboto Mono', monospace;
-  font-size: 14px;
   text-align: center;
     display:block;
     margin-top: 50px;
@@ -165,7 +164,6 @@ padding:0;
 
 .weather-app-link {
    font-family:'Roboto Mono', monospace;
-   font-size: 14px;
   display:block;
   text-align: center;
     margin-top: 30px;
