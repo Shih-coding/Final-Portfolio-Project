@@ -22,8 +22,10 @@ text-align: center;
 
 
 .hero p {
+  font-size: 12px;
   font-family:'Roboto Mono', monospace;
   font-weight: 300;
+  margin-bottom: 5px;
   color: var(--secondary-color);
 }
 
@@ -73,6 +75,7 @@ padding:0;
 }
 
 .contact-button {
+  font-size: 14px;
   font-family: 'Roboto Mono', monospace;
   background-color:transparent !important;
 box-sizing: inherit;
@@ -113,7 +116,7 @@ padding:0;
 p {
   color: var(--primary-color);
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 @media (max-width: 480px) {
@@ -133,7 +136,7 @@ padding:0;
 
 .she-letters-link {
   font-family:'Roboto Mono', monospace;
-  font-size: 13px;
+  font-size: 10px;
   text-align: center;
     display:block;
     margin-top: 50px;
@@ -144,7 +147,7 @@ padding:0;
      color: var(--primary-color);
     font-weight: bold;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -165,7 +168,7 @@ padding:0;
 
 .weather-app-link {
    font-family:'Roboto Mono', monospace;
-    font-size: 14px;
+    font-size: 10px;
   display:block;
   text-align: center;
     margin-top: 30px;
@@ -178,7 +181,7 @@ padding:0;
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -189,7 +192,7 @@ padding:0;
 .about-content h1 {
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   color: var(--dark-green);
   margin-bottom: 25px;
 }
@@ -201,6 +204,7 @@ padding:0;
     text-align: center;
   }
 }
+
 
 .lightbulb {
   color: white;
