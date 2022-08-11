@@ -22,7 +22,6 @@ text-align: center;
 
 
 .hero p {
-  font-size: 12px;
   font-family:'Roboto Mono', monospace;
   font-weight: 300;
   margin-bottom: 5px;
@@ -116,7 +115,6 @@ padding:0;
 p {
   color: var(--primary-color);
   font-family: 'Roboto', sans-serif;
-  font-size: 12px;
 }
 
 @media (max-width: 480px) {
