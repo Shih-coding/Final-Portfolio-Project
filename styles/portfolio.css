@@ -215,7 +215,7 @@ padding:0;
 
 h4 {
   font-family: 'Roboto Mono', monospace;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   color: var(--secondary-color);
@@ -225,5 +225,4 @@ h4 {
 .extra {
     color: var(--secondary-color);
   font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
 }
