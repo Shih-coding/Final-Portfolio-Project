@@ -186,7 +186,8 @@ padding:0;
 }
 
 .about-content {
-  padding: 100px;
+  margin-top: 50px;
+  padding: 30px;
 }
 
 .about-content h1 {
@@ -208,8 +209,23 @@ padding:0;
 
 .lightbulb {
   color: white;
- margin: 50px;
+ margin-top: 30px;
  display:block;
   text-align: center;
   font-size: 60px;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 20px;
+}
+
+.extra {
+    color: var(--secondary-color);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
 }
