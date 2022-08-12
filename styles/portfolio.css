@@ -223,3 +223,31 @@ h4 {
     color: var(--secondary-color);
   font-family: 'Roboto Mono', monospace;
 }
+
+hr {
+  color: var(--primary-color);
+}
+
+ul.skills-list {
+  font-family: 'Roboto Mono', monospace;
+  color: var(--secondary-color);
+  display: grid;
+      grid-template-columns:300px 300px;
+    padding: 0px;
+    overflow:hidden;
+    
+}
+
+li {
+ list-style: none;
+  position: relative;
+  padding: 0 0 0 20px;
+}
+    
+
+ul.skills-list li::before { 
+  content:">";
+    color: var(--secondary-color);
+    position: relative;
+  right: 5px;
+}
