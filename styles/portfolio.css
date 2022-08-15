@@ -271,3 +271,7 @@ font-size: 16px;
   text-align: center;
   font-size: 50px;
 }
+
+h5 {
+  color: var(--primary-color);
+}
