@@ -282,7 +282,7 @@ zoom: 50%;
   margin: 0 auto;
 }
 
-h2 {font-family:'Source Sans Pro', sans-serif;
+.skills-level {font-family:'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: var(--dark-green);
