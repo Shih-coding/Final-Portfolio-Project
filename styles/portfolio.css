@@ -281,3 +281,11 @@ zoom: 50%;
   transition: transform .2s;
   margin: 0 auto;
 }
+
+h2 {font-family:'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-green);
+  margin-top: 50px;
+  text-align: center;
+}
