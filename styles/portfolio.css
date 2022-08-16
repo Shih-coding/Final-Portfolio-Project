@@ -1,8 +1,9 @@
 :root {
     --primary-color:#d4f5ff;
     --secondary-color: rgb(100, 255, 208);
-    --accent-color: #7C4DFF;
+    --accent-color:#FF00FF ;
     --dark-green:#05af9e;
+    --light-blue: #00FFFF;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
 }
 .hero {
   text-align: left;
-  padding: 150px;
+  padding: 70px;
+  margin-top: 40px;
 }
 
 @media (max-width: 480px) {
@@ -67,25 +69,21 @@ padding:0;
 padding:0;
   }
 }
-
-.contact-button:hover {
-  cursor: pointer;
-  color: var(--secondary-color);
-}
-
 .contact-button {
-  font-family: 'Roboto Mono', monospace;
-  background-color:transparent !important;
-box-sizing: inherit;
-  border: 2px solid var(--accent-color);
-  display: inline-block;
-  text-align: left;
-  padding: 10px 20px;
-  transition: all 0.5s;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--light-blue);
+   transition: all 0.5s;
     transition-property: all;
     transition-duration: 0.25s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+
+.contact-button:hover {
+  cursor: pointer;
+  color: var(--accent-color);
 }
 
 @media (max-width: 480px) {
@@ -146,6 +144,11 @@ padding:0;
     text-decoration: none;
 }
 
+.contact-button:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
 .weather-text {
   margin: 40px;  
 }
@@ -176,6 +179,18 @@ padding:0;
     border-radius: 30px;
     padding: 15px;
     text-decoration: none;
+}
+
+.button {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--light-blue);
+   transition: all 0.5s;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
 }
 
 .content-container {
@@ -251,20 +266,6 @@ ul.skills-list li::before {
   right: 5px;
 }
 
-.button {
-  color: var(--primary-color);
-  border: 1px solid var(--accent-color);
-  margin-top: 10px;
-margin-bottom: 30px;
-font-family: 'Roboto Mono', monospace;
-font-size: 16px;
-}
-
-.button:hover {
-  cursor: pointer;
-  color: var(--secondary-color);
-}
-
 .cog {
     color: white;
  display:block;
@@ -305,15 +306,6 @@ zoom: 50%;
   font-size: 20px;
 }
 
-.contact-me a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.contact-me a:hover {
-  cursor: pointer;
-  color: var(--accent-color);
-}
 
 .r-logo {
   max-width: 150px;
@@ -327,9 +319,18 @@ nav li {
 list-style:none;
 font-family:'Roboto Mono', monospace;
 color: var(--secondary-color);
+line-height: 30px;
 }
 
 .resume-btn {
 position: relative;
 left: 50px;
+color: var(--secondary-color);
+border:1px solid var(--secondary-color);
+}
+
+.resume-btn:hover {
+transform: scale(1.1);
+transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+color:#FF00FF ;
 }
