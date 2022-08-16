@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#edecf1;
+    --primary-color:#d4f5ff;
     --secondary-color: rgb(100, 255, 208);
     --accent-color: #7C4DFF;
     --dark-green:#05af9e;
@@ -313,4 +313,23 @@ zoom: 50%;
 .contact-me a:hover {
   cursor: pointer;
   color: var(--accent-color);
+}
+
+.r-logo {
+  max-width: 150px;
+}
+
+.container {
+  margin: 0;
+}
+
+nav li {
+list-style:none;
+font-family:'Roboto Mono', monospace;
+color: var(--secondary-color);
+}
+
+.resume-btn {
+position: relative;
+left: 50px;
 }
