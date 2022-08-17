@@ -14,6 +14,7 @@ body {
   margin: 0px 5px;
 }
 
+
 .home-container{
   padding: 240px 80px;
 }
@@ -25,8 +26,23 @@ body {
   line-height: 40px;
 }
 
+@media (max-width: 480px) {
+  .menu, .resume-btn {
+    display: none;
+  }
+}
+
+
 .r-logo {
   max-width: 150px;
+}
+
+@media (max-width: 480px) {
+  .r-logo {
+max-width: 75px;
+margin: 10px 0px 300px 0px;
+padding: 0px;
+  }
 }
 
 
@@ -38,17 +54,15 @@ line-height: 30px;
 transition: all 150ms ease-in-out;
 }
 
-nav li.active a {
+
+nav li.active a, 
+nav li a:hover{
   color:var(--accent-color);
 }
 
 nav li a {
   text-decoration: none;
   color: var(--secondary-color);
-}
-
-nav li a:hover{
-  color: var(--accent-color);
 }
 
 .button {
@@ -93,6 +107,14 @@ color:#FF00FF ;
   font-size: 30px; 
 }
 
+@media (max-width: 480px) {
+  .icon-links li {
+    margin: 15px;
+    padding: 20px 0px;
+font-size: 25px;
+  }
+}
+
 .fa-regular {
   color: var(--light-blue);
 }
@@ -118,10 +140,11 @@ color:#FF00FF ;
   top: 250px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 850px) {
   .laptop {
-padding: 20px;
-text-align: center;
+    font-size: 100px;
+    position: relative;
+    top: 300px;
   }
 }
 
@@ -133,8 +156,7 @@ text-align: center;
 
 @media (max-width: 480px) {
   .hero {
-padding: 20px;
-text-align: center;
+padding: 20px 0px 0px 40px;
   }
 }
 
