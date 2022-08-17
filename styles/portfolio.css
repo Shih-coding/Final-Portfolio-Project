@@ -215,6 +215,18 @@ cursor: pointer;
   }
 }
 
+.scroll-down span{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 15px;
+  right: 10px;
+  bottom: 30px;
+  writing-mode:vertical-lr;
+  font-family: 'Roboto', sans-serif;
+  color: var(--accent-color);
+}
+
 h6 {
   color: var(--secondary-color);
   font-family:'Roboto Mono', monospace;
