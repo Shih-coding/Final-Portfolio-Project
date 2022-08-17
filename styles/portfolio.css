@@ -16,6 +16,15 @@ body {
 .content-container {
   margin: 100px;
 }
+
+.laptop {
+      color:var(--accent-color);
+ display:block;
+  text-align: right;
+  font-size: 150px;
+  position: relative;
+  top: 130px;
+}
 .hero {
   text-align: left;
   padding: 70px;
@@ -198,6 +207,10 @@ padding:0;
     transition-delay: 0s; 
 }
 
+.button:hover {
+   color: var(--accent-color);
+}
+
 .content-container h1 {
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -304,6 +317,15 @@ zoom: 50%;
 .contact-me p {
   text-align: center;
   font-size: 20px;
+}
+
+.contact-me a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-me a:hover {
+  color: var(--accent-color);
 }
 
 
