@@ -9,6 +9,13 @@
 body {
   background: rgb(10, 25, 47)
 }
+
+.top-container {
+  margin: 50px 5px;
+}
+.content-container {
+  margin: 100px;
+}
 .hero {
   text-align: left;
   padding: 70px;
@@ -21,7 +28,6 @@ padding: 20px;
 text-align: center;
   }
 }
-
 
 .hero p {
   font-family:'Roboto Mono', monospace;
@@ -82,9 +88,12 @@ padding:0;
 }
 
 .contact-button:hover {
-  cursor: pointer;
-  color: var(--accent-color);
+ transform: scale(1.05);
+transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+color:var(--accent-color) ;
+cursor: pointer;
 }
+
 
 @media (max-width: 480px) {
  .contact-button {
@@ -121,9 +130,6 @@ p {
 padding:0;
   }
 }
-    .she-letters-link:hover {
-  color: var(--secondary-color);
-}
 
 .she-letters-text {
   margin: 40px;
@@ -144,10 +150,9 @@ padding:0;
     text-decoration: none;
 }
 
-.contact-button:hover {
-  cursor: pointer;
-  color: var(--accent-color);
-}
+   .she-letters-link:hover {
+  color: var(--accent-color);}
+
 
 .weather-text {
   margin: 40px;  
@@ -161,7 +166,7 @@ padding:0;
   }
 }
 .weather-app-link:hover {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .weather-app-link {
@@ -191,11 +196,6 @@ padding:0;
     transition-duration: 0.25s;
     transition-timing-function: ease;
     transition-delay: 0s; 
-}
-
-.content-container {
-  margin-top: 50px;
-  padding: 30px;
 }
 
 .content-container h1 {
@@ -311,9 +311,6 @@ zoom: 50%;
   max-width: 150px;
 }
 
-.container {
-  margin: 0;
-}
 
 nav li {
 list-style:none;
@@ -322,15 +319,25 @@ color: var(--secondary-color);
 line-height: 30px;
 }
 
+nav li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+nav li a:hover{
+  color: var(--accent-color);
+}
+
 .resume-btn {
 position: relative;
 left: 50px;
 color: var(--secondary-color);
 border:1px solid var(--secondary-color);
+padding: 5px 10px;
 }
 
 .resume-btn:hover {
-transform: scale(1.1);
+transform: scale(1.05);
 transition:cubic-bezier(0.215, 0.610, 0.355, 1);
 color:#FF00FF ;
 }
