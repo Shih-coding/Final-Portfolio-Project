@@ -16,7 +16,7 @@ body {
 
 
 .home-container{
-  padding: 240px 80px;
+  padding: 250px 80px;
 }
 .content-container {
   padding: 70px 100px;
@@ -26,21 +26,34 @@ body {
   line-height: 40px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
   .menu, .resume-btn {
     display: none;
   }
 }
 
+.navbar {
+  background-color: #0A192F !important;
+}
+
+.hamburger a {
+  color: var(--secondary-color);
+}
+
+.hamburger a:hover, .hamburger.active a {
+color: var(--accent-color);
+}
 
 .r-logo {
   max-width: 150px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 750px) {
   .r-logo {
-max-width: 75px;
-margin: 10px 0px 300px 0px;
+max-width: 80px;
+position: relative;
+right: 5px;
+margin: 150px 0px 0px 0px;
 padding: 0px;
   }
 }
@@ -107,10 +120,10 @@ color:#FF00FF ;
   font-size: 30px; 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .icon-links li {
     margin: 15px;
-    padding: 20px 0px;
+    padding: 15px 0px 15px 20px;
 font-size: 25px;
   }
 }
@@ -133,14 +146,15 @@ font-size: 25px;
 
 .laptop {
       color:var(--accent-color);
- display:block;
+      display: block;
   text-align: right;
   font-size: 150px;
   position: relative;
-  top: 250px;
+  top: 270px;
+  right:40px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 960px) {
   .laptop {
     font-size: 100px;
     position: relative;
@@ -150,8 +164,7 @@ font-size: 25px;
 
 .hero {
   text-align: left;
-  padding: 70px;
-  margin-top: 160px;
+  margin-top: 250px;
 }
 
 @media (max-width: 480px) {
@@ -306,6 +319,7 @@ padding:0;
    .she-letters-link:hover {
   color: var(--accent-color);}
 
+ 
 
 .weather-text {
   margin: 40px;  
@@ -339,7 +353,15 @@ padding:0;
     text-decoration: none;
 }
 
-
+ @media (max-width: 480px) {
+  .she-letters-link, .weather-app-link {
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    
+  }
+}
 
 .content-container h1 {
   font-family:'Source Sans Pro', sans-serif;
