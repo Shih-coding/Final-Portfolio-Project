@@ -16,7 +16,7 @@ body {
 
 
 .home-container{
-  padding: 250px 80px;
+  padding: 250px 80px 40px 80px;
 }
 .content-container {
   padding: 70px 100px;
@@ -322,7 +322,7 @@ padding:0;
  
 
 .weather-text {
-  margin: 40px;  
+  margin: 40px 40px 0px 40px;  
 }
 
 @media (max-width: 480px) {
@@ -480,4 +480,46 @@ zoom: 50%;
   color: var(--accent-color);
 }
 
+.footer-container a {
+  color: var(--secondary-color);
+  font-family:'Roboto Mono', monospace; 
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+}
 
+.footer-container a:hover {
+color: var(--accent-color);
+transition: all 150ms ease-in-out;
+}
+
+.contact-box {
+  margin: 0px 250px;
+}
+
+h7 {
+  color: var(--primary-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}
+
+.contact-box p {
+  color: var(--light-blue);
+  
+}
+
+.contact-button {
+  background-color: var(--dark-green);
+  margin: 30px;
+
+}
+
+.contact-box {
+  border: 1px solid var(--accent-color);
+  padding:20px 50px;
+  border-radius: 20px;
+}
