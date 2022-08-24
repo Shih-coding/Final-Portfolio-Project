@@ -19,7 +19,8 @@ body {
   padding: 250px 80px 40px 80px;
 }
 .content-container {
-  padding: 70px 200px 70px 0px;
+  padding: 70px 200px 50px 0px;
+  margin-bottom: 100px;
 
 }
 
@@ -312,11 +313,11 @@ padding:0;
     width: 50%;
   margin-left:25%;
   margin-right: 25%;
-     border: 2px solid var(--light-blue);
+     border: 1px solid var(--light-blue);
      color: var(--primary-color);
     font-weight: bold;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -348,12 +349,12 @@ padding:0;
     width: 50%;
   margin-left:25%;
   margin-right: 25%;
-    border: 2px solid var(--light-blue);
+    border: 1px solid var(--light-blue);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -459,7 +460,6 @@ h5 {
 
 .img-links:hover{
 zoom: 50%;
-  transition: transform .2s;
   margin: 0 auto;
 }
 
@@ -501,7 +501,7 @@ zoom: 50%;
   display: block;
   text-align: center;
   text-decoration: none;
-  margin: 20px;
+  margin:20px;
 }
 
 .footer-container a:hover {
