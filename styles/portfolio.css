@@ -19,9 +19,13 @@ body {
   padding: 250px 80px 40px 80px;
 }
 .content-container {
-  padding: 70px 100px;
+  padding: 70px 200px 70px 0px;
+
 }
 
+.work-container{
+  padding: 70px 150px 70px 0px;
+}
 .menu li {
   line-height: 40px;
 }
@@ -220,7 +224,7 @@ padding:0;
 padding:0;
   }
 }
-.contact-button {
+.contact-me-button {
   font-family:'Roboto Mono', monospace;
   padding: 10px 15px;
   text-decoration: none;
@@ -363,7 +367,7 @@ padding:0;
   }
 }
 
-.content-container h1 {
+.content-container  h1 {
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -371,6 +375,17 @@ padding:0;
   margin-bottom: 20px;
   text-align: center;
 }
+
+.work-container h1 {
+  font-family:'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-green);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 
 @media (max-width: 480px) {
   .about-content {
@@ -515,6 +530,7 @@ h7 {
 .contact-button {
   background-color: var(--dark-green);
   margin: 30px;
+  color:white;
 
 }
 
@@ -523,3 +539,8 @@ h7 {
   padding:20px 50px;
   border-radius: 20px;
 }
+
+.content-container i:hover {
+color: var(--light-blue);
+}
+
