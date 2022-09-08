@@ -6,8 +6,15 @@
     --light-blue: #00FFFF;
 }
 
-body {
+html, body {
   background: rgb(10, 25, 47)
+}
+
+@media (max-width: 1500px) {
+  .html, body {
+    max width:100%;
+  overflow-x:hidden;
+  }
 }
 
 .top-container {
