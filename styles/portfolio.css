@@ -254,7 +254,7 @@ cursor: pointer;
 
 
 @media (max-width: 480px) {
- .contact-button {
+ .contact-me-button {
   display: block;
     text-align: center;
     font-size: 14px;
@@ -537,14 +537,32 @@ h7 {
   background-color: var(--dark-green);
   margin: 30px;
   color:white;
-
+  text-align: center;
+   width: 30%;
+  margin-left:35%;
+  margin-right: 35%;
 }
 
 .contact-box {
-  border: 1px solid var(--accent-color);
   padding:20px 50px;
   border-radius: 20px;
+  margin-top: 70px;
 }
+
+ @media (max-width: 800px) {
+  .contact-box {
+   text-align: center;
+   display: contents;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact-box .contact-btn {
+  font-size: 30px;
+  }
+}
+
+
 
 .content-container i:hover {
 color: var(--light-blue);
