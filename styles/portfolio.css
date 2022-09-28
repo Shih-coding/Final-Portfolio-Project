@@ -256,7 +256,6 @@ cursor: pointer;
 @media (max-width: 480px) {
  .contact-button {
   display: block;
-  margin: 5px;
     text-align: center;
     font-size: 14px;
   }
