@@ -473,7 +473,7 @@ zoom: 50%;
   font-weight: 700;
   font-size: 40px;
   color: var(--dark-green);
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -572,18 +572,37 @@ color: var(--light-blue);
   height: 60%;
   width:auto;
   padding: 10px;
-  margin: 40px;
+  margin-top: 60px;
 }
 
 .she-letters-insta img:hover{
   transform: scale(1.05);
 }
 .youtube-channel img {
-  height: 500px;
-  width: auto;
-  margin: 40px;
+  height:400px;
+  width:auto;
+margin-top: 80px;
 }
 
 .youtube-channel img:hover{
   transform: scale(1.05);
+}
+
+@media (max-width: 550px) {
+  .she-letters-insta img, .youtube-channel img{
+padding:10px;
+margin: 0 auto;
+display: block;
+  }
+}
+
+.skill-bars p {
+  color: var(--light-blue);
+  font-family:'Roboto Mono', monospace;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+.skill-bars {
+  margin-bottom: 80px;
 }
