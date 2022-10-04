@@ -6,16 +6,12 @@
     --light-blue: #00FFFF;
 }
 
-html, body {
-  background: rgb(10, 25, 47)
-}
-
-@media (max-width: 1500px) {
-  .html, body {
+.html, body {
+  background: rgb(10, 25, 47);
     max-width:100%;
   overflow-x:hidden;
-  }
 }
+
 
 .top-container {
   margin: 0px 5px;
